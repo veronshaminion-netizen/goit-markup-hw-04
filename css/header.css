@@ -1,0 +1,96 @@
+ .logo{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    color:#4D5AE5;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-style: bold;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+ }
+ .accent{
+    color:#2E2F42;
+ }
+ .container-header{
+   padding-left: 15px;
+   padding-right: 15px;
+   display: flex;
+   flex-direction: row;
+   gap: 76px;
+   margin: 0 auto;
+   max-width: 1158px;
+ }
+ .header-navigation{
+    display: flex;
+    gap: 76px;
+ }
+.menu{
+    display: flex;
+    gap: 40px;
+ }
+ .contacts{
+    display: flex;
+    gap: 40px;
+}
+.address{
+    margin-left: auto;
+}
+ .menu a{
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    color:#2E2F42;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    text-decoration: none;
+ }
+ .contacts a{
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    color:#434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    text-decoration: none;
+    padding-top: 24px;
+ }
+.portfolio-link:hover{
+    color: #404BBF;
+}
+.portfolio-link:focus {
+    color: #404BBF;
+}
+
+.features-link:hover{
+    color: #404BBF;
+}
+.features-link:focus {
+    color: #404BBF;
+}
+
+.team-link:hover{
+    color: #404BBF;
+}
+.team-link:focus {
+    color: #404BBF;
+}
+
+
+.contacts-link:hover{
+    color: #404BBF;
+}
+.contacts-link:focus {
+    color: #404BBF;
+}
+.header{
+    border-bottom: 1px solid #e7e9fc;
+}
