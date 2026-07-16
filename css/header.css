@@ -38,30 +38,18 @@
 .address{
     margin-left: auto;
 }
- .menu a{
+.link{
     display: flex;
     padding-top: 24px;
     padding-bottom: 24px;
-    color:#2E2F42;
+    color: #2E2F42;
+    transition: 250ms;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-style: normal;
     text-decoration: none;
- }
- .contacts a{
-    display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    color:#434455;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    font-style: normal;
-    text-decoration: none;
-    padding-top: 24px;
  }
 .portfolio-link:hover{
     color: #404BBF;

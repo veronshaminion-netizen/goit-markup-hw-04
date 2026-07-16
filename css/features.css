@@ -41,6 +41,7 @@
     flex-basis:calc((100% - 3 * 24px) / 4);
 }
 .symbol{
+    display: flex;
     background-color: #F4F4FD;
     width: 264px;
     height: 112px;

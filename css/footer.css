@@ -4,7 +4,7 @@
     max-width: 496px;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.07;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
@@ -45,8 +45,7 @@
     background-color: #2E2F42;
     padding: 100px 0;
 }
-.icon {
-    color: #F4F4FD;
+.footer-list .icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,6 +53,7 @@
     height: 40px;
     background-color: #4D5AE5;
     border-radius: 50%;
+    transition: 250ms;
 }
 .footer-list{
     display: flex;
@@ -61,5 +61,10 @@
 }
 .container-footer{
     display: flex;
-    gap: 120px;
+}
+.footer-list .icon:hover{
+    background-color: #31d0aa;
+}
+.footer-list .icon:focus {
+    background-color: #31d0aa;
 }
