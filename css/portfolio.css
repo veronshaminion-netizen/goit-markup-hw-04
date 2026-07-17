@@ -42,13 +42,35 @@
     gap: 8px;
     padding: 32px 16px;
 }
-.portfolio-image {
-    display: block;
-}
 .portfolio {
     padding: 120px 0;
 }
 .container-portfolio {
     margin: 0 auto;
     max-width: 1158px;
+}
+.overlay{
+    background-color: #4D5AE5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    transition: transform 250ms ease-in-out;
+}
+.overlay p{
+    font-style: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0, 02em;
+    color: #F4F4FD;
+}
+.portfolio-image{
+    position: relative;
+    overflow: hidden;
+}
+.portfolio-image:hover .overlay{
+    transform: translateY(0%);
 }

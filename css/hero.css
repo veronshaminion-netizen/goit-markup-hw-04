@@ -32,7 +32,8 @@
     margin: 0 auto;
     align-self: center;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    transition: 250ms;
+    transition: background-color 250ms ease-in-out;
+    max-width: 1440px;
 }
 .button:hover{
     background-color: #404BBF;

@@ -46,6 +46,7 @@
     padding: 100px 0;
 }
 .footer-list .icon {
+    fill:#f4f4fd;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,6 +62,7 @@
 }
 .container-footer{
     display: flex;
+    gap: 120px;
 }
 .footer-list .icon:hover{
     background-color: #31d0aa;
