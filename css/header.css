@@ -82,9 +82,22 @@
 .header{
     border-bottom: 1px solid #e7e9fc;
 }
-menu::after{
-    content: "—";
-    width: 65px;
+.link {
+    position: relative;
+    color: #2e2f42;
+}
+
+.link.active {
+    color: #404bbf;
+}
+
+.link.active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
     height: 4px;
+    background-color: #404bbf;
     border-radius: 2px;
 }
