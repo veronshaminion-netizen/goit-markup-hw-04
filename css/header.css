@@ -82,3 +82,9 @@
 .header{
     border-bottom: 1px solid #e7e9fc;
 }
+menu::after{
+    content: "—";
+    width: 65px;
+    height: 4px;
+    border-radius: 2px;
+}
