@@ -30,12 +30,15 @@
     gap:48px 24px;
 }
 .portfolio-item {
-    box-shadow: black;
     width: calc((100% - 48px) / 3);
     transition: box-shadow 250ms ease-in-out;
 }
+.portfolio-item:focus,
 .portfolio-item:hover{
-    box-shadow: #434455;
+    box-shadow:
+            0px 1px 6px rgba(46, 47, 66, 0.08),
+            0px 1px 1px rgba(46, 47, 66, 0.16),
+            0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-list-text {
