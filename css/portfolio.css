@@ -60,17 +60,21 @@
     transition: transform 250ms ease-in-out;
 }
 .overlay p{
-    font-style: Roboto;
+    font-family: Roboto;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0, 02em;
+    letter-spacing: 0.02em;
     color: #F4F4FD;
+    padding: 40px 32px;
 }
 .portfolio-image{
     position: relative;
     overflow: hidden;
 }
-.portfolio-image:hover .overlay{
+.portfolio-item:hover .overlay{
     transform: translateY(0%);
+}
+.image{
+    display: block;
 }
