@@ -110,3 +110,20 @@ ol {
     width: 360px;
     height: 120px;
 }
+.span-text{
+    color:#8E8F99 ;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+}
+.span-link{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 4%;
+    text-decoration: underline;
+    text-decoration-style: solid;
+}
