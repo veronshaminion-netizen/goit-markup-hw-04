@@ -325,30 +325,6 @@
             </ul>
             </div>
         </section>
-        <form class="form">
-            <h3 class="form-title">Leave your contacts and we will call you back</h3>
-            <label class="form-text" for="name">Name</label>
-            <input class="field" type="text" name="name">
-            <label class="form-text" for="phone">Phone</label>
-            <input class="field" type="tel" name="phone">
-            <label class="form-text" for="email">Email</label>
-            <input class="field" type="email" name="email">
-            <label class="form-text" for="comment">Comment</label>
-            <textarea class="comment" name="comment" rows="5" placeholder="Text input"></textarea>
-            <div>
-                <input type="checkbox" name="rules" id="rules" />
-                <label for="rules">
-                    <span class="active">
-                        <svg width="10" height="8">
-                            <use href="./images/symbol.svg#check-mark" />
-                        </svg>
-                    </span>
-                    <span class="span-text">I accept the terms and conditions of the <a class="span-link" href="#">Privacy Policy</a></span>
-                </label>
-            </div>
-
-            <button class="form-button active" type="submit">Send</button>
-        </form>
     </main>
     <footer id="footer" class="footer">
         <div class="container container-footer">
@@ -389,21 +365,50 @@
             </li>
         </ul>
             </div>
+            <div class="container container-form">
             <form class="form-footer">
                     <div class="email">
-                <label class="footer-form-text" for="email">Subscribe</label>
+                        <p class="footer-form-text">Subscribe</p>
                 <input class="input-footer" type="email" name="email" placeholder="E-mail"/>
                     </div>
                 <button class="button-footer" type="submit">
                 <div class="button-text-footer">
                 Subscribe
                 <svg width="24" height="24">
-                    <use href="./images/symbol.svg#subscribe"></use>
+                    <use href="./images/icons.svg#subscribe"></use>
                 </svg>
                 </div>
             </button>
             </form>
+            </div>
         </div>
     </footer>
+    <div id="modal">
+    <form class="form">
+        <h3 class="form-title">Leave your contacts and we will call you back</h3>
+        <label class="form-text" for="name">Name</label>
+        <input class="field" type="text" name="name">
+        <label class="form-text" for="phone">Phone</label>
+        <input class="field" type="tel" name="phone">
+        <label class="form-text" for="email">Email</label>
+        <input class="field" type="email" name="email">
+        <label class="form-text" for="comment">Comment</label>
+        <textarea class="comment" name="comment" rows="5" placeholder="Text input"></textarea>
+        <div>
+            <input type="checkbox" name="rules" id="rules" />
+            <label for="rules">
+                <span class="active">
+                    <svg width="10" height="8">
+                        <use href="./images/icons.svg#check-mark" />
+                    </svg>
+                </span>
+                <span class="span-text">I accept the terms and conditions of the <a class="span-link" href="#">Privacy
+                        Policy</a></span>
+            </label>
+        </div>
+    
+        <button class="form-button active" type="submit">Send</button>
+    </form>
+    </div>
 </body>
 </html>
