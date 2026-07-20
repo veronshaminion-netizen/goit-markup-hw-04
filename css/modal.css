@@ -32,8 +32,8 @@
     margin: 0 auto;
 
 }
-
-.form-button.active {
+.form-button:focus,
+.form-button:hover{
     background-color: #404BBF;
 }
 
@@ -52,6 +52,10 @@
     border-radius: 4px;
     width: 360px;
     height: 40px;
+    transition: border-color 250ms ease-in-out;
+}
+.field:focus{
+    border: 1px solid #4D5AE5;
 }
 
 .form-text {
@@ -84,8 +88,11 @@
     font-family: Roboto;
     font-weight: 400;
     font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 4%;
+    line-height: 14px;
+    letter-spacing: 0.04em;
     text-decoration: underline;
     text-decoration-style: solid;
+}
+.footer-icon{
+    fill: #2E2F42;
 }

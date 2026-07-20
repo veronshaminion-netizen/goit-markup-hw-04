@@ -366,9 +366,9 @@
         </ul>
             </div>
             <div class="container container-form">
+                <p class="footer-form-text">Subscribe</p>
             <form class="form-footer">
                     <div class="email">
-                        <p class="footer-form-text">Subscribe</p>
                 <input class="input-footer" type="email" name="email" placeholder="E-mail"/>
                     </div>
                 <button class="button-footer" type="submit">
@@ -387,18 +387,33 @@
     <form class="form">
         <h3 class="form-title">Leave your contacts and we will call you back</h3>
         <label class="form-text" for="name">Name</label>
-        <input class="field" type="text" name="name">
+        <div class="input-wrapper">
+        <input class="field" type="text" name="name" id="name">
+        <svg class="form-icon" width="12" height="12">
+            <use href="./images/icons1.svg#"person></use>
+        </svg>
+        </div>
         <label class="form-text" for="phone">Phone</label>
-        <input class="field" type="tel" name="phone">
+        <div class="input-wrapper">
+        <input class="field" type="tel" name="phone" id="phone">
+        <svg class="form-icon"  width="13" height="13">
+            <use href="./images/icons1.svg#phone"></use>
+        </svg>
+        </div>
         <label class="form-text" for="email">Email</label>
-        <input class="field" type="email" name="email">
+        <div class="input-wrapper">
+        <input class="field" type="email" name="email" id="email">
+        <svg class="form-icon" width="15" height="12">
+            <use href="./images/icons1.svg#email"></use>
+        </svg>
+        </div>
         <label class="form-text" for="comment">Comment</label>
-        <textarea class="comment" name="comment" rows="5" placeholder="Text input"></textarea>
+        <textarea class="comment" name="comment" id="comment" rows="5" placeholder="Text input"></textarea>
         <div>
             <input type="checkbox" name="rules" id="rules" />
             <label for="rules">
                 <span class="active">
-                    <svg width="10" height="8">
+                    <svg class="footer-icon" width="10" height="8">
                         <use href="./images/icons.svg#check-mark" />
                     </svg>
                 </span>

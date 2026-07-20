@@ -96,7 +96,7 @@
     padding: 8px 24px;
     transition: background-color 250ms ease-in-out;
 }
-.button-footer:focus
+.button-footer:focus,
 .button-footer:hover{
     background-color: #31D0AA;
 }
@@ -117,7 +117,8 @@
     line-height: 14px;
     letter-spacing: 0.04em;
     color:#FFFFFF;
-    transition: border-radius 250ms ease-in-out;
+    transition: border-color 250ms ease-in-out;
+    margin-top: 16px;
 }
 .input-footer:focus{
     border: 1px solid #31d0aa;
@@ -129,4 +130,10 @@
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
+}
+.footer-icon{
+    fill:#FFFFFF;
+}
+.input-footer::placeholder{
+    color:#fff ;
 }
