@@ -77,7 +77,6 @@
 .form-footer{
     display: flex;
     gap: 24px;
-    margin-left: auto;
 }
 .button-footer{
     border: none;
@@ -137,3 +136,9 @@
 .input-footer::placeholder{
     color:#fff ;
 }
+.container-form-footer{
+    display: flex;
+    gap: 16px;
+    margin-left: auto ;
+}
+
